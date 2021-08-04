@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	// Declaracion variables
 	helloMessage := "Hello"
-	worldMessage := "world"
+	const worldMessage string = "world"
 
 	// Println
 	fmt.Println(helloMessage)
